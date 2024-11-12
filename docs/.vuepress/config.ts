@@ -5,7 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   bundler: viteBundler(),
   // 网站信息
-  base: '/',
+  base: '/YevinNotesBlog/', // Github Pages
   lang: 'zh-CN',
   title: '耶温笔记',
   description: '耶温笔记-耶温博客-学习记录',
