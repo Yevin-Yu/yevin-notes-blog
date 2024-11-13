@@ -11,6 +11,9 @@ export default defineUserConfig({
   description: '耶温笔记-耶温博客-学习记录',
   // 主题配置
   theme: plumeTheme({
+    // seo地址
+    // hostname: 'https://www.yuwb.cn',
+    // 插件
     plugins: {
       shiki: {
         languages: ['shell', 'bash', 'typescript', 'javascript', 'html', 'css', 'vue'],

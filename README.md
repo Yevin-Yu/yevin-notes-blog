@@ -1,42 +1,61 @@
-# yevin-notes-blog
+# 个人介绍
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+## 耶温😊
 
-## Install
+### 前端开发者💻
 
-```sh
-npm i
-```
+认真生活，简单做人，用心做事。 
 
-## Usage
+致力于让每一次点击都充满惊喜！
 
-```sh
-# start dev server
-npm run docs:dev
-# build for production
-npm run docs:build
-# preview production build in local
-npm run docs:preview
-# update vuepress and theme
-npm run vp-update
-```
+### 技能🛠️
 
-## Deploy to GitHub Pages
+- **基础技能**  
+  - HTML
+  - CSS
+  - JavaScript
+  - TypeScript
 
-The plume theme has been created with GitHub Actions: `.github/workflows/docs-deploy.yml`. You also need to make the following settings in the GitHub repository:
+- **框架**  
+  - Vue
+  - React
+  - UNI-APP
+  - jQuery
 
-- [ ] `settings > Actions > General`, Scroll to the bottom of the page, under `Workflow permissions`, check `Read and write permissions`, and click the save button.
+- **组件库**  
+  - Element
+  - Vant
+  - Ant Design
+  - Bootstrap
 
-- [ ] `settings > Pages`, In `Build and deployment`, select `Deploy from a branch` for `Source`, choose `gh-pages` for `Branch`, and click the save button.
-  (The `gh-pages` branch may not exist upon first creation. You can complete the above setup first, push the code to the main branch, wait for `github actions` to finish, and then proceed with the setup.)
+- **图表与地图**  
+  - Echarts
+  - 百度地图
+  - Google地图
 
-- [ ] Modify the `base` option in `docs/.vuepress/config.ts`:
-  - If you are planning to deploy to `https://<USERNAME>.github.io/`, you can skip this step as `base` defaults to `"/"`.
-  - If you are planning to deploy to `https://<USERNAME>.github.io/<REPO>/`, meaning your repository URL is `https://github.com/<USERNAME>/<REPO>`, set `base` to `"/<REPO>/"`.
+- **其他技术**  
+  - Node.js
+  - Python
+  - MySQL
+  - 微信小程序
 
-To customize a domain name, please refer to [Github Pages](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
+### 主要项目 🚀
 
-## Documents
+- **[House730 - 香港楼市交易平台](https://m.house730.com/)**  
+  为香港用户提供新盘、二手房、租房、工商铺及新闻资讯等楼盘信息展示，涵盖H5端、PC端及后台管理PMS端。
 
-- [vuepress](https://vuepress.vuejs.org/)
-- [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+- **[中原地产H5官网](https://m.sh.centanet.com/)**  
+  展示买房、二手房、新房、租房信息，提供定制找房、VR看房等线上看房服务。
+
+- **智能可视化大屏配置项目**  
+  提供海量组件与模板一键复用，支持拖拉拽快速搭建酷炫大屏，灵活自适应不同尺寸展示。
+
+- **智能BI大数据分析项目**  
+  集成设计好的仪表板和报表，支持参数传递、图表联动、排序、过滤等自助分析操作，增强数据可视化分析能力。
+
+- **智能虚拟数字人**  
+  提供一站式虚拟人音视频内容生产，支持文本或录音输入，一键生成音视频作品，3分钟内完成渲染。虚拟形象支持DIY捏脸、个性化换装与动作搭配。
+
+### 联系我 📫
+
+欢迎与我交流合作，共同探索前端领域！🌟
