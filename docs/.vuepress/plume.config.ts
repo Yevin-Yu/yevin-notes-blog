@@ -1,6 +1,6 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import { navbar } from './navbar'
-// import { notes } from './notes'
+import { notes } from './notes'
 
 
 export default defineThemeConfig({
@@ -18,7 +18,7 @@ export default defineThemeConfig({
   // 导航栏
   navbar,
   // 文章列表
-  // notes,
+  notes,
   // 页脚
   footer: {
     message: '耶温笔记-YevinNotesBlog',

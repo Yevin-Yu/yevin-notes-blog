@@ -5,7 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   bundler: viteBundler(),
   // 网站信息
-  base: '/YevinNotesBlog/', // Github Pages
+  base: '/yevin-notes-blog/', // Github Pages
   lang: 'zh-CN',
   title: '耶温笔记',
   description: '耶温笔记-耶温博客-学习记录',
@@ -15,12 +15,20 @@ export default defineUserConfig({
     // hostname: 'https://www.yuwb.cn',
     // 插件
     plugins: {
-      shiki: {
+      shiki: { // 代码高亮
         languages: ['shell', 'bash', 'typescript', 'javascript', 'html', 'css', 'vue'],
       },
-      markdownEnhance: {
+      markdownEnhance: { // 代码块
         demo: true,
       },
+      comment: {  // 评论
+        provider: 'Giscus', 
+        comment: true,
+        repo: 'Yevin-Yu/blog-comments', 
+        repoId: 'R_kgDOMNskgg', 
+        category: 'Q&A', 
+        categoryId: 'DIC_kwDOMNskgs4CgWpW', 
+      }
     },
   }),
   // 头部内容
