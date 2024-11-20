@@ -11,8 +11,19 @@ const javascript = defineNoteConfig({
         }
     ]
 })
+const node = defineNoteConfig({
+    dir: 'Node.js',
+    link: '/Node.js',
+    sidebar: [
+        {
+            text: 'Node.js Basic',
+            icon: 'ic:baseline-dashboard',
+            items: ['Node.js版本管理-n', 'Node.js版本管理-nvm']
+        }
+    ]
+})
 export const notes = defineNotesConfig({
     dir: 'notes',
     link: '/',
-    notes: [javascript],
+    notes: [javascript, node],
 })

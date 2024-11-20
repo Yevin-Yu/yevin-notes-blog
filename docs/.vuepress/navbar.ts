@@ -6,6 +6,7 @@ export const navbar = defineNavbarConfig([
   {
     text: 'Web前端', icon: "material-symbols:web", items: [
       { text: 'JavaScript', link: '/JavaScript/21qygyp7/', icon: "cib:js" },
+      { text: 'Node.js', link: '/Node.js/cznd3edy/', icon: "teenyicons:nodejs-solid" },
     ]
   },
 ])
