@@ -16,7 +16,7 @@ export default defineUserConfig({
     // 插件
     plugins: {
       shiki: { // 代码高亮
-        languages: ['shell', 'bash', 'typescript', 'javascript', 'html', 'css', 'vue'],
+        languages: ['shell', 'bash', 'typescript', 'javascript', 'html', 'css', 'vue','nginx'],
       },
       markdownEnhance: { // 代码块
         demo: true,
