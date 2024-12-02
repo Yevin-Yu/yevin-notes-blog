@@ -1,4 +1,15 @@
 import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
+const html = defineNoteConfig({
+  dir: "HTML",
+  link: "/HTML",
+  sidebar: [
+    {
+      text: "HTML Case",
+      icon: "mdi:jewel-case",
+      items: ["H5-响应式布局方案","Canvas-图片合成"],
+    },
+  ],
+});
 
 const css = defineNoteConfig({
   dir: "CSS",
@@ -12,7 +23,7 @@ const css = defineNoteConfig({
     {
       text: "CSS Case",
       icon: "mdi:jewel-case",
-      items: ["CSS文字轮播效果"],
+      items: ["CSS文字轮播效果","CSS主题切换方案"],
     },
   ],
 });
@@ -97,5 +108,5 @@ const computer = defineNoteConfig({
 export const notes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [css, javascript, vue2, node, npm, git, computer],
+  notes: [html, css, javascript, vue2, node, npm, git, computer],
 });

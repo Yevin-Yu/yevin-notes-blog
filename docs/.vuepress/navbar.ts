@@ -7,6 +7,7 @@ export const navbar = defineNavbarConfig([
     text: "Web前端",
     icon: "icon-park-twotone:web-page",
     items: [
+      { text: "HTML", link: "/HTML/ckjutl0h/", icon: "ph:file-html-fill" },
       { text: "CSS", link: "/CSS/b3trdf6x/", icon: "fa6-brands:css" },
       { text: "JavaScript", link: "/JavaScript/21qygyp7/", icon: "cib:js" },
       { text: "Vue2", link: "/Vue2/amnf6e15/", icon: "logos:vue" },
