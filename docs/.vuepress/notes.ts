@@ -6,7 +6,7 @@ const html = defineNoteConfig({
     {
       text: "HTML Case",
       icon: "mdi:jewel-case",
-      items: ["H5-响应式布局方案","Canvas-图片合成"],
+      items: ["H5-响应式布局方案", "Canvas-图片合成"],
     },
   ],
 });
@@ -18,12 +18,19 @@ const css = defineNoteConfig({
     {
       text: "CSS Basic",
       icon: "ic:baseline-dashboard",
-      items: ["CSS滚动条"],
+      items: [
+        "CSS选择器",
+        "CSS3新增",
+        "CSS网格布局",
+        "CSS样式滤镜",
+        "CSS滚动条",
+        "CSS自定义变量",
+      ],
     },
     {
       text: "CSS Case",
       icon: "mdi:jewel-case",
-      items: ["CSS文字轮播效果","CSS主题切换方案"],
+      items: ["CSS文字轮播效果", "CSS主题切换方案", "CSS响应式常见布局"],
     },
   ],
 });
@@ -35,7 +42,7 @@ const javascript = defineNoteConfig({
     {
       text: "JavaScript Basic",
       icon: "ic:baseline-dashboard",
-      items: ["WebSocket", "Event Loop"],
+      items: ["WebSocket", "Event Loop", "ESM与CommonJS"],
     },
   ],
 });
@@ -60,6 +67,11 @@ const node = defineNoteConfig({
       text: "Node.js Basic",
       icon: "ic:baseline-dashboard",
       items: ["Node.js版本管理-n", "Node.js版本管理-nvm"],
+    },
+    {
+      text: "Node.js Case",
+      icon: "mdi:jewel-case",
+      items: ["Node.js+Express基本案例", "Node.js+Express保持登陆"],
     },
   ],
 });
