@@ -1,12 +1,13 @@
 ---
-title: WebSocket - 简单了解
+title: Web Socket
 author: 耶温
 createTime: 2024/05/11 15:05:45
 permalink: /JavaScript/21qygyp7/
 ---
 
+# Web API-Web Socket 简单了解
 
-之前项目中遇到了消息推送的问题，当时采用客户端轮询，每隔 5s 请求一次数据。由于轮询的效率低，非常浪费资源。后面准备把轮询调整为使用 WebSocket 来建立连接，实现推送。
+前段时间项目中遇到了消息推送的问题，当时采用客户端轮询，每隔 5s 请求一次数据。由于轮询的效率低，非常浪费资源。后面准备把轮询调整为使用 WebSocket 来建立连接，实现推送。
 
 ## WebSocket 介绍
 
@@ -47,16 +48,16 @@ ws.onclose = function(data) {
 };
 ```
 
-如上代码，我们可以使用 `ws.send()` 发送数据，也可以使用 `ws.onmessage` 监听服务器端发送的信息数据，实现简单的实时双向传输功能。
+如上代码，我们可以使用 ws.send()发送数据，也可以适用 ws.onmessage 监听服务器端发送的信息数据，实现简单的实时双向传输功能。
 
 ## WebSocket 事件
 
-我们在开始 WebSocket 服务之后，可以直接使用 `addEventListener()` 或将一个事件监听器赋值给接口的 `oneventname` 属性，来监听相关事件。
+我们在开始 WebSocket 服务之后，可以直接使用 addEventListener() 或将一个事件监听器赋值给接口的 oneventname 属性，来监听相关事件。
 
 ### clone
 
 当一个 WebSocket 连接被关闭时触发。
-也可以通过 `onclose` 属性来设置。
+也可以通过 onclose 属性来设置。
 
 ```js
 ws.addEventListener("clone", function(event) {
@@ -74,7 +75,7 @@ ws.onclone = function(event) {
 ### error
 
 当一个 WebSocket 连接因错误而关闭时触发，例如无法发送数据时。
-也可以通过 `onerror` 属性来设置.
+也可以通过 onerror 属性来设置.
 
 ```js
 ws.addEventListener("error", function(event) {
@@ -90,7 +91,7 @@ ws.onerror = function(event) {
 ### message
 
 当通过 WebSocket 收到数据时触发。
-也可以通过 `onmessage` 属性来设置。
+也可以通过 onmessage 属性来设置。
 
 ```js
 ws.addEventListener("message", function(event) {
@@ -106,7 +107,7 @@ ws.onmessage = function(event) {
 ### open
 
 当一个 WebSocket 连接成功时触发。
-也可以通过 `onopen` 属性来设置。
+也可以通过 onopen 属性来设置。
 
 ```js
 ws.addEventListener("open", function(event) {
@@ -197,7 +198,7 @@ ws.send(blob);
 
 ## 服务端使用
 
-各个服务器端语言实现方法不一样，这里简单说下 Node.js 的测试环境。
+如果各个服务器端语言实现方法不一样，这里简单说下我的测试环境。
 
 测试使用的是 node.js 配合 nodejs-websocket 进行的
 

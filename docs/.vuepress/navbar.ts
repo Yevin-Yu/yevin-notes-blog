@@ -9,8 +9,14 @@ export const navbar = defineNavbarConfig([
     items: [
       { text: "HTML", link: "/HTML/ckjutl0h/", icon: "ph:file-html-fill" },
       { text: "CSS", link: "/CSS/b3trdf6x/", icon: "fa6-brands:css" },
-      { text: "JavaScript", link: "/JavaScript/21qygyp7/", icon: "cib:js" },
+      { text: "JavaScript", link: "/JavaScript/3n85m43u/", icon: "cib:js" },
+      {
+        text: "TypeScript",
+        link: "/TypeScript/xgndo7cj/",
+        icon: "skill-icons:typescript",
+      },
       { text: "Vue2", link: "/Vue2/amnf6e15/", icon: "logos:vue" },
+      { text: "Vue3", link: "/Vue3/wr2boutf/", icon: "devicon:vuetify" },
       {
         text: "Node.js",
         link: "/Node.js/cznd3edy/",
