@@ -120,9 +120,9 @@ function changeData2() {
 如上图所示，我们只有按钮1可以实现修改数据展示。因为`readonly`是只读的。并且编译器和浏览器控制台会提示我们。
 
 <center>
-  <img src="@source/notes/Vue/images/image-17.png" style="width:90%;border-radius:20px" />
+  <img src="@source/notes/Vue3/images/image-17.png" style="width:90%;border-radius:20px" />
   <div>编译器提示</div><br/>
-  <img src="@source/notes/Vue/images/image-18.png" style="width:90%;border-radius:20px" />
+  <img src="@source/notes/Vue3/images/image-18.png" style="width:90%;border-radius:20px" />
   <div>点击按钮浏览器提示</div><br/>
 </center>
 

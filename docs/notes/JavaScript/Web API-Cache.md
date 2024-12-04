@@ -42,7 +42,7 @@ async function cacheFun() {
 cacheFun()
 ```
 打印输出如下
-```console
+```txt
 (2) ['cache_v1', 'cache_demo_v1']
 ```
 ### `CacheStorage.has()`
@@ -64,7 +64,7 @@ cacheFun()
 
 打印输出如下
 
-```console
+```txt
 (2) ['cache_v1', 'cache_demo_v1']
 
 true false
@@ -89,7 +89,7 @@ cacheFun()
 
 打印输出如下
 
-```console
+```txt
 (2) ['cache_v1', 'cache_demo_v1']
 
 true
