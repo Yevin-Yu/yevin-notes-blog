@@ -65,6 +65,12 @@ export default defineUserConfig({
       {
         src:"/tongji.js" // 添加百度统计插件
       }
+    ],
+    [
+      "script",
+      {
+        src:"https://tj.yuwb.cn/plugins/index.js?key=KH6ZM8I696EEMWQ0" // 添加统计插件
+      }
     ]
   ],
 });
