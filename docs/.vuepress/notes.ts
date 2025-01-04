@@ -32,6 +32,7 @@ const css = defineNoteConfig({
       items: [
         "CSS选择器",
         "CSS3新增",
+        "CSS-Flex布局",
         "CSS网格布局",
         "CSS样式滤镜",
         "CSS滚动条",
