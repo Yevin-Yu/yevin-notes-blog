@@ -58,6 +58,7 @@ const javascript = defineNoteConfig({
         "JavaScript-基础",
         "JavaScript-作用域和闭包",
         "JavaScript-原型链",
+        "JavaScript-原型链解析",
         "JavaScript-Promise",
         "JavaScript-类（Class）",
         "JavaScript-内置对象方法",
