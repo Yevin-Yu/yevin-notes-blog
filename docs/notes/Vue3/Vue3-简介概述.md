@@ -5,6 +5,7 @@ createTime: 2024/06/12 16:54:01
 permalink: /Vue3/wr2boutf/
 ---
 
+
 # Vue3-简介概述
 
 > Vue3 官方中文文档 https://cn.vuejs.org/
@@ -28,6 +29,31 @@ permalink: /Vue3/wr2boutf/
     3. 支持TypeScript
 -
     4. 新的特性(组合API等等)
+
+
+对比 Vue2 优势：
+
+**性能提升**：
+  - Vue 3 在虚拟 DOM 的实现上进行了优化，提升了渲染性能，尤其是在大型应用中表现更为明显。
+  - 更小的包体积，Vue 3 的核心库体积比 Vue 2 更小。
+  
+**Composition API**：
+  - 引入了 Composition API，使得逻辑复用更加灵活，能够更好地组织和复用代码。
+  - 通过 setup 函数，可以更清晰地管理组件的状态和生命周期。
+
+**更好的 TypeScript 支持**：
+  - Vue 3 从设计上就考虑了 TypeScript 的支持，提供了更好的类型推导和类型检查，提升了开发体验。
+
+**Fragment、Teleport 和 Suspense**：
+  - Vue 3 引入了 Fragment、Teleport 和 Suspense 等新特性，提供了更多的灵活性，使得组件的渲染更加灵活和高效。
+  - Fragment 允许组件返回多个根节点
+  - Teleport 允许组件将内容渲染到 DOM 的其他位置
+  - Suspense 允许组件在异步数据加载时显示加载状态。
+
+**更好的响应式**：
+  - Vue 3 的响应式系统进行了重写，使用 Proxy 代替了 Vue 2 中的 Object.defineProperty，提供了更好的性能和更灵活的 API。
+
+
 
 ## 项目创建
 

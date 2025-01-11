@@ -182,7 +182,7 @@ const node = defineNoteConfig({
     {
       text: "Node.js Basic",
       icon: "ic:baseline-dashboard",
-      items: ["Node.js版本管理-n", "Node.js版本管理-nvm"],
+      items: ["Node.js底层实现-简单了解","Node.js版本管理-n", "Node.js版本管理-nvm"],
     },
     {
       text: "Node.js Case",
@@ -233,6 +233,18 @@ const computer = defineNoteConfig({
   ],
 });
 
+const react = defineNoteConfig({
+  dir: "React",
+  link: "/React",
+  sidebar: [
+    {
+      text: "React Basic",
+      icon: "ic:baseline-dashboard",
+      items: ["React-简介安装"],
+    },
+  ],
+});
+
 export const notes = defineNotesConfig({
   dir: "notes",
   link: "/",
@@ -247,5 +259,6 @@ export const notes = defineNotesConfig({
     npm,
     git,
     computer,
+    react
   ],
 });

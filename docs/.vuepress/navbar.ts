@@ -17,6 +17,7 @@ export const navbar = defineNavbarConfig([
       },
       { text: "Vue2", link: "/Vue2/amnf6e15/", icon: "logos:vue" },
       { text: "Vue3", link: "/Vue3/wr2boutf/", icon: "devicon:vuetify" },
+      { text: "React", link: "/React/jpzwki32/", icon: "devicon:react" },
       {
         text: "Node.js",
         link: "/Node.js/cznd3edy/",
