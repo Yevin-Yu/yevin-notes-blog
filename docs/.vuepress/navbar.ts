@@ -36,6 +36,7 @@ export const navbar = defineNavbarConfig([
     items: [
       { text: "NPM", link: "/NPM/b54c2715/", icon: "gg:npm" },
       { text: "Git", link: "/Git/h8hjd37u/", icon: "mdi:git" },
+      { text: "InterView", link: "/InterView/bdk24mw0/", icon: "mdi:notes" },
     ],
   },
 ]);

@@ -43,6 +43,12 @@ export default defineUserConfig({
         categoryId: "DIC_kwDOMNskgs4CgWpW",
       },
     },
+    // 加密文章
+    encrypt: {
+      rules:{
+        '/notes/InterView/': '123456',
+      }
+    }
   }),
   // 头部内容
   head: [

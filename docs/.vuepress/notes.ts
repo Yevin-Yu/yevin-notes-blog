@@ -153,6 +153,7 @@ const vue3 = defineNoteConfig({
       text: "Vue3 Base",
       icon: "ic:baseline-dashboard",
       items: [
+        "Vue2与Vue3数据绑定原理解析",
         "Vue3-简介概述",
         "Vue3-setup",
         "Vue3-ref&reactive",
@@ -182,7 +183,7 @@ const node = defineNoteConfig({
     {
       text: "Node.js Basic",
       icon: "ic:baseline-dashboard",
-      items: ["Node.js底层实现-简单了解","Node.js版本管理-n", "Node.js版本管理-nvm"],
+      items: ["Node.js底层实现-简单了解", "Node.js版本管理-n", "Node.js版本管理-nvm"],
     },
     {
       text: "Node.js Case",
@@ -245,6 +246,18 @@ const react = defineNoteConfig({
   ],
 });
 
+const interview = defineNoteConfig({
+  dir: "InterView",
+  link: "/InterView",
+  sidebar: [
+    {
+      text: "Interview Record",
+      icon: "ic:baseline-dashboard",
+      items: ["HTML", "CSS", "JavaScript", "Vue", "NodeJS","前端其他内容"],
+    },
+  ],
+});
+
 export const notes = defineNotesConfig({
   dir: "notes",
   link: "/",
@@ -259,6 +272,7 @@ export const notes = defineNotesConfig({
     npm,
     git,
     computer,
-    react
+    react,
+    interview
   ],
 });
