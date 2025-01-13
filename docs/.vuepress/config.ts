@@ -46,7 +46,7 @@ export default defineUserConfig({
     // 加密文章
     encrypt: {
       rules:{
-        '/notes/InterView/': '123456',
+        '/InterView/': 'yuwb.cn',
       }
     }
   }),
