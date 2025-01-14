@@ -172,3 +172,40 @@ fetchData((data) => {
 
 
 
+## call apply bind
+
+call、apply 和 bind 都是 JavaScript 中用于改变函数执行上下文的方法。
+
+1. **call**：调用一个函数，并指定函数执行时的上下文（即 `this` 的值），以及传递给函数的参数。
+
+```js
+function greet(param1, param2) {
+  console.log(`Hello, ${this.name}! ${param1} ${param2}`);
+}
+const person = { name: 'Alice' };
+greet.call(person,'hello','world'); // Hello, Alice! hello world
+```
+
+2. **apply**：与 `call` 类似，但传递给函数的参数是一个数组。
+
+```js
+function greet(param1, param2) {
+  console.log(`Hello, ${this.name}! ${param1} ${param2}`);
+}
+const person = { name: 'Alice' };
+greet.apply(person, ['hello', 'world']); // Hello, Alice! hello world
+```
+
+3. **bind**：创建一个新的函数，该函数在调用时具有指定的上下文，并且可以接受额外的参数。
+   
+```js
+function greet(param1, param2) {
+  console.log(`Hello, ${this.name}! ${param1} ${param2}`);
+}
+const person = { name: 'Alice' };
+const boundGreet = greet.bind(person);
+boundGreet('hello', 'world'); // Hello, Alice! hello world
+```
+
+
+
