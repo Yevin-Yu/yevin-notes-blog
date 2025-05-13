@@ -111,6 +111,7 @@ EventBus.$on('eventName', this.handleEvent) // 监听事件
 
 **性能提升**：
   - Vue 3 在虚拟 DOM 的实现上进行了优化，提升了渲染性能，尤其是在大型应用中表现更为明显。
+  - 虚拟DOM：在 Vue2 中是全量 Diff 对比，而在 Vue3 中是静态标记 + 靶向更新 (Patch Flag) 。编译时标记静态节点，Diff 跳过静态内容，渲染速度提升 200%+。
   - 更小的包体积，Vue 3 的核心库体积比 Vue 2 更小。
   
 **Composition API**：

@@ -241,7 +241,7 @@ const react = defineNoteConfig({
     {
       text: "React Basic",
       icon: "ic:baseline-dashboard",
-      items: ["React-简介安装"],
+      items: ["React-简介安装","React-JSX"],
     },
   ],
 });
@@ -254,6 +254,18 @@ const interview = defineNoteConfig({
       text: "Interview Record",
       icon: "ic:baseline-dashboard",
       items: ["HTML", "CSS", "JavaScript", "Vue", "NodeJS","前端其他内容"],
+    },
+  ],
+});
+
+const softtest = defineNoteConfig({
+  dir: "SoftTest",
+  link: "/SoftTest",
+  sidebar: [
+    {
+      text: "SoftTest Base",
+      icon: "ic:baseline-dashboard",
+      items: ["01-软件设计师-中级软考"],
     },
   ],
 });
@@ -273,6 +285,7 @@ export const notes = defineNotesConfig({
     git,
     computer,
     react,
-    interview
+    interview,
+    softtest
   ],
 });
