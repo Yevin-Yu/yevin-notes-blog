@@ -63,7 +63,7 @@ Vue-cli创建Vue方法，可以参考其他笔记。
 
 > Vue2&Vue3项目创建
 
-> [Vue2&Vue3项目创建：点击跳转](/Vue/mesk1w7p/)
+> [Vue2&Vue3项目创建：点击跳转](/Vue3/gsq2pijn/)
 
 ### Vite(官方推荐)
 
