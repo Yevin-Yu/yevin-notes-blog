@@ -241,7 +241,7 @@ const react = defineNoteConfig({
     {
       text: "React Basic",
       icon: "ic:baseline-dashboard",
-      items: ["React-简介安装","React-JSX"],
+      items: ["React-简介安装","React-组件与JSX","React-State"],
     },
   ],
 });
